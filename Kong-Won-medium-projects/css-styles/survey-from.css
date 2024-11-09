@@ -1,0 +1,207 @@
+body {
+  background-image: url("/Kong-Won-medium-projects/pictures/is-reading-a-hobby-scaled.jpeg");
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  max-width: 5000px;
+}
+
+.form-bg {
+  width: 80%;
+  background-color: lightslategray;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 100rem;
+  max-height: 100rem;
+  opacity: 95%;
+}
+
+h1 {
+  font-size: 100px;
+  margin-top: auto;
+  text-align: center;
+  color: aqua;
+}
+
+#description {
+  font-size: 50px;
+  margin-top: none;
+  text-align: center;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+#name-label,
+#email-label,
+#age-label,
+label[for="dropdown"],
+label[for="radio-button"],
+label[for="checkbox"],
+label[for="text"] {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+input,
+#dropdown,
+textarea {
+  margin: 10px 0 0 0;
+  width: 60%;
+  min-height: 2em;
+  border-radius: 5px;
+  border-color: black;
+  max-width: 15em;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+#name,
+#email,
+#number {
+  max-width: 15em;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 30%;
+  margin: 1em auto;
+  height: 1em;
+  font-size: 2rem;
+  background-color: lightblue;
+  border-color: black;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+input[type="radio"][value="1"] + label {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+}
+
+input[type="radio"][value="2"] + label {
+  font-size: 2rem;
+  color: blue;
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  #description {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  #description {
+    font-size: 35px;
+  }
+
+  .form-bg {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input,
+  #dropdown,
+  textarea {
+    width: 70%;
+    max-width: 12em;
+  }
+
+  input[type="submit"] {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  #description {
+    font-size: 25px;
+  }
+
+  .form-bg {
+    width: 95%;
+    padding: 10px;
+  }
+
+  input,
+  #dropdown,
+  textarea {
+    width: 80%;
+    max-width: 10em;
+  }
+
+  input[type="submit"] {
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  #name-label,
+  #email-label,
+  #age-label,
+  label[for="dropdown"],
+  label[for="radio-button"],
+  label[for="checkbox"],
+  label[for="text"] {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  #description {
+    font-size: 20px;
+  }
+
+  .form-bg {
+    width: 100%;
+    padding: 5px;
+  }
+
+  input,
+  #dropdown,
+  textarea {
+    width: 90%;
+    max-width: 8em;
+  }
+
+  input[type="submit"] {
+    width: 60%;
+    font-size: 1.2rem;
+  }
+
+  #name-label,
+  #email-label,
+  #age-label,
+  label[for="dropdown"],
+  label[for="radio-button"],
+  label[for="checkbox"],
+  label[for="text"] {
+    font-size: 18px;
+  }
+}

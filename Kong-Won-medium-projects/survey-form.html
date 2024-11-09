@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css-styles/survey-from.css" />
+  </head>
+  <body>
+    <div class="form-bg">
+      <h1 id="title">Favorite Hobby Survey Form</h1>
+      <p id="description">
+        Input below what your favorite hobby is and explain why, thanks for
+        participating!
+      </p>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label">Your Full Name:</label
+          ><input
+            id="name"
+            type="text"
+            placeholder="Enter your Full name"
+            required
+          /><br />
+        </div>
+        <div class="form-group">
+          <label id="email-label">Your Email Address:</label
+          ><input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+          /><br />
+        </div>
+        <div class="form-group">
+          <label id="age-label">Enter your age (optional): </label
+          ><input
+            id="number"
+            type="number"
+            placeholder="age"
+            min="18"
+            max="60"
+          /><br />
+        </div>
+        <div class="form-group">
+          <label for="dropdown">Which hobby do you like best?</label
+          ><select id="dropdown">
+            <option>Choose one...</option>
+            <option>Sports</option>
+            <option>After school club</option>
+            <option>Hanging out with friends</option>
+            <option>Music related</option>
+            <option>Gaming</option>
+            <option>Other</option></select
+          ><br />
+        </div>
+        <label for="radio-button"
+          >Would you recommended this survey to a friend?</label
+        ><br /><input type="radio" name="yes-no" value="1" /><label
+          for="radio-yes"
+          >Yes</label
+        >
+        <input type="radio" name="yes-no" value="2" /><label for="radio-no"
+          >No</label
+        ><br />
+        <label for="checkbox"
+          >What topics should my next survey be on? (Check all that
+          applies)</label
+        ><br /><input type="checkbox" value="1" />Extracurricular activity<br /><input
+          type="checkbox"
+          value="2"
+        />Major/Career<br />
+        <input type="checkbox" value="3" />Games<br />
+        <input type="checkbox" value="4" />Movies<br />
+        <label for="text"
+          >Please explain why the hobby you choose above is your
+          favorite:</label
+        ><br /><textarea
+          rows="10"
+          cols="20"
+          placeholder="Enter your explanation here:"
+        ></textarea>
+        <label id="Submit"></label><br />
+        <input type="Submit" id="Submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="css-styles/Product-landing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="top-bar">
+      <header id="header">
+        <h2>Premium Flutes</h2>
+        <div class="logo">
+          <img
+            id="header-img"
+            src="/Kong-Won-medium-projects/pictures/flute.jpg"
+            alt="flute logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-to-play">How To Play</a></li>
+            <li><a class="nav-link" href="#prices">Prices</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container"></div>
+
+    <section id="hero">
+      <h2>Flutes with special material</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input
+          id="submit"
+          type="submit"
+          value="Get Started"
+          class="submittion"
+        />
+      </form>
+    </section>
+
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="image">
+            <img
+              id="image"
+              src="/Kong-Won-medium-projects/pictures/premium.jpg"
+              alt="premium icon"
+            />
+          </div>
+          <div class="desc">
+            <h2>Premium Quality</h2>
+            <p>
+              Our Flutes use only the highest materials gathered and refined in
+              small batches. Giving our products the quality it needs.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="image">
+            <img
+              id="image"
+              src="/Kong-Won-medium-projects/pictures/ship.png"
+              alt="shipping icon"
+            />
+          </div>
+          <div class="desc">
+            <h2>Quick and Precise Shipping</h2>
+            <p>
+              We ship our orders shortly after you order and also provide free
+              returns if you're not fully satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="image">
+            <img
+              id="image"
+              src="/Kong-Won-medium-projects/pictures/assured.png"
+              alt="check icon"
+            />
+          </div>
+          <div class="desc">
+            <h2>Quality Guaranteed</h2>
+            <p>
+              We double check all the Flutes that gets made to ensure there are
+              no damages and test them to check the pitch is right.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section id="how-to-play">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube.com/watch?v=hMSL-r_Gy-4"
+          frameborder="0"
+          allow="fullscreen"
+        >
+        </iframe>
+      </section>
+      <section id="prices">
+        <div class="product" id="wood">
+          <div class="level">Wood Flute</div>
+          <h2>$25</h2>
+          <ol>
+            <li>100% real wood</li>
+            <li>certified and tested</li>
+            <li>comes with a booklet with instructions for beginners</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="silver">
+          <div class="level">Silver Flute</div>
+          <h2>$25</h2>
+          <ol>
+            <li>100% real silver</li>
+            <li>certified and tested</li>
+            <li>
+              comes with a booklet with instructions for intermediate players
+            </li>
+            <li>Comes with videos for references and examples</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="gold">
+          <div class="level">Gold Flute</div>
+          <h2>$25</h2>
+          <ol>
+            <li>100% real gold</li>
+            <li>certified and tested</li>
+            <li>comes with a booklet with instructions for advanced players</li>
+            <li>Comes with videos for references and examples</li>
+            <li>Comes with real signatures from our product team</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2024, Premium Flutes</span>
+      </footer>
+    </div>
+  </body>
+</html>
